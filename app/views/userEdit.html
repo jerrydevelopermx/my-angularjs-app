@@ -1,0 +1,25 @@
+<div>
+  <h1>Edit user</h1>
+    <div class="form-group">
+        <label for="email">Name</label>
+        <input type="text"
+           id="name"
+           class="form-control"
+           ng-model="$ctrl.user.firstname">
+    </div>
+    <div class="form-group">
+        <label for="email">Last name</label>
+        <input type="text"
+           id="lastname"
+           class="form-control"
+           ng-model="$ctrl.user.lastname">
+    </div>
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="text"
+           id="email"
+           class="form-control"
+           ng-model="$ctrl.user.email">
+    </div>
+    <button class="button button-new" ng-click="$ctrl.save()">Save</button>
+</div>
